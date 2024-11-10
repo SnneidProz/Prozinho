@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Chatbot Prozinho da Saúde</title> 
+        <!-- CSS -->
+        <link rel="stylesheet" href="./style.css">
+        <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+            
+                <df-messenger
+                intent="WELCOME"
+                chat-title="ProzinhoDaSaúde"
+                agent-id="e6706331-1be9-4552-907b-c95808c16cfc"
+                chat-icon='https://64.media.tumblr.com/6c8ff44f40545ed2354680cddec1ca85/f03af674c1f0e65f-65/s640x960/d8d9d13532995c1c90f7a28094fa07977fb55e68.pnj'
+                language-code="pt-br"
+                ></df-messenger>
+               
+    </head>
+    <body>
+        
+        <iframe id="Principal"
+            allow="microphone;"
+            width="350"
+            height="430"
+            src="https://console.dialogflow.com/api-client/demo/embedded/e6706331-1be9-4552-907b-c95808c16cfc">
+            
+        </iframe>
+        <!-- Header -->
+        <header>
+        <nav>
+            <ul>
+                <a id="Logo" href="#Principal"><img src="./images/Logo-Proz-1.png" alt="logo"  ></a>
+                <li><a href="#Principal">Home</a></li>
+                <li><a href="#Sobre">Sobre</a></li>
+                <li><a href="#Contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- Main Content -->
+    <main>
+        
+        <section>
+            <h2 id="Sobre">Secção 2</h2>
+            <p></p>
+        </section>
+        
+        <section id="">
+            <h1>Sobre o projeto</h1>
+            <p>Somos do curso de desenvolvimento de sistemas estamos estudando o modulo de qualidade de software e fizemos este projeto  com parceria da turma de enfermagem, que é um bot para responder algumas perguntas sobre Políticas, Programas e Redes de Atenção Domiciliar na área da saúde.</p>
+        </section>
+        <section>
+            <h2 >Secção 3</h2>
+            <p>Sed consectetur erat ac ligula malesuada, ut vestibulum metus consectetur. Nullam consectetur, ligula non fermentum consectetur, lectus nisi malesuada lacus, in pharetra lacus felis id enim. Nullam tristique, quam a consectetur facilisis, metus neque semper ipsum, ut posuere erat velit vitae velit.</p>
+        </section>
+    </main>
+
+
+    
+
+    <!-- Footer -->
+     <footer id="Contato">
+        <p>Todos os direitos reservados aos aluno da proz: Andreza,Dennis,Miguel,Guilherme &copy; 2024</p>
+    </footer>
+
+        
+    
+</body>
+</html>
