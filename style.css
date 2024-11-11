@@ -63,6 +63,11 @@ ul {
     z-index: 1000;
     margin: 0;
 }
+main {
+    padding: 60px;
+    display: flex;
+    
+}
 
 a {
     color: white;
