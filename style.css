@@ -154,54 +154,54 @@ ul li:hover:before {
     box-sizing: border-box;
     transition: box-shadow 0.2s ease-in-out;
     margin-top: 18px;
-  }
+}
   
-  label {
+label {
     display: block;
     margin-bottom: 8px;
     font-weight: bold;
     color: #555;
-  }
+}
   
-  input, select, textarea {
+input, select, textarea {
     width: 100%;
     padding: 10px;
     margin-bottom: 15px;
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 14px;
-  }
+}
   
-  textarea {
+textarea {
     resize: none;
-  }
+}
   
-  .buttons {
+.buttons {
     display: flex;
     justify-content: space-between;
-  }
+}
   
-  button {
+button {
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
     font-size: 14px;
     cursor: pointer;
-  }
-  
-  button[type="submit"] {
+}
+ 
+button[type="submit"] {
     background-color: #4CAF50;
     color: white;
-  }
+}
   
-  button[type="reset"] {
+button[type="reset"] {
     background-color: #f44336;
     color: white;
-  }
+}
   
-  button:hover {
+button:hover {
     opacity: 0.9;
-  }
+}
 
 iframe {
     display: flex;
@@ -243,4 +243,4 @@ df-messenger {
     --df-messenger-send-icon: #878fac;
     --df-messenger-user-message: #479b3d;
     --df-messenger-size: 500px;
-   }
+}
